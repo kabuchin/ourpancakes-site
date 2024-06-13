@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>俺らのパンケーキ | MemoryGame</title>
+<link rel="icon" href="./img/portal.png">
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg {
+    background-image: url('./img/top.jpg');
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .play-button {
+	padding: 0;
+	margin: 0;
+	font-family: 'うずらフォント', cursive;
+	src: url('../font/uzura.ttf') format('ttf');
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <div class="logo">
+    <img src="./img/logo.jpg" alt="ロゴ">
+  </div>
+  <div class="button-container">
+    <button class="play-button" onclick="location.href='./game/'">Let's Play Up</button>
+  </div>
+</div>
+
+</body>
+</html>
